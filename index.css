@@ -1,5 +1,11 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
 }
 .header-nav {
     margin-top: 20px;
@@ -21,7 +27,7 @@
     margin-right: 40px;
 }
 .header-name {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 100;
     font-size: 36px;
     color: #2d3c49;
@@ -35,15 +41,46 @@
     text-transform: uppercase;
     float: right;
 }
-.article-text {
+.body-container {
     padding: 40px;
 }
 .image-one {
-    padding-left: 40px;
+    padding-top: 20px;
     padding-right: 40px;
 }
 .image-two {
-    padding-top: 40px;
-    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
     float: left;
+}
+.image-three {
+  display: block;
+  width: 300px;
+  height:150px;
+  background: url('https://cdn.pixabay.com/photo/2017/06/28/10/53/board-2450236_1280.jpg') no-repeat;
+  background-size: contain;
+}
+.featured {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    color: #7d97ad;
+    padding-top: 10px;
+}
+.title {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    font-size: 36px;
+    color: #2d3c49;
+    text-transform: uppercase;
+}
+.images {
+    display: block;
+    margin: 0 auto;
+    width: 100px:
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
