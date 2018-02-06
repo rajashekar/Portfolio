@@ -6,57 +6,59 @@
         <title>Portfolio</title>
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/index.css" type="text/css" media="screen" title="no title">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/index.css" media="screen">
     </head>
     <body class="container">
-        <header class="header-nav row">
-            <div class="header-container">
-                <div class="header-left">
+        <header class="row header-nav">
+                <div class="col-md-6">
                     <img width="65" height="65" alt="Udacity Logo" src="img/udacity.svg">
                 </div>
-                <div class="header-right">
+                <div class="col-md-6 text-right">
                     <div class="header-name">Rajashekar Ch</div> 
                     <div class="header-sub-name">Front-End Learner</div>
                 </div>
-            </div>
         </header>
-        <div class="body-container row">
-            <article class="article-text">
+        <div class="row body-container">
+            <article class="col-md-12 article-text">
                 <h3>Portfolio</h3>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged.
+                </p>
             </article>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="img/Test.jpg" alt="Test image" style="width:100%;">
+                <img class="main-image" src="img/Test.jpg" alt="Test image">
             </div>
         </div>
-        <div class="featured"> Featured Work </div>
-        <div class="images">
+        <div class="row">
+            <div class="col-md-12 featured"> Featured Work </div>
+        </div>
+        <main class="images">
             <div class="row text-center">
                 <div class="col-md-4 image-two">
-                    <img width="200" height="150" class="img-responsive" alt="test" src="img/Test1.jpg">
+                    <img width="200" height="150" class="small-image img-responsive" alt="test" src="img/Test1.jpg">
                     <h3 class="title">Title 1</h3>
                     <a class="url-link" href="https://github.com/udacity/title1">https://github.com/udacity/title1</a>
                 </div>
                 <div class="col-md-4 image-two">
-                    <img width="200" height="150" class="img-responsive" alt="test" src="img/Test2.jpg">
+                    <img width="200" height="150" class="small-image img-responsive" alt="test" src="img/Test2.jpg">
                     <h3 class="title">Title 2</h3>
                     <a class="url-link" href="https://github.com/udacity/title2">https://github.com/udacity/title2</a>
                 </div>
                 <div class="col-md-4 image-two">
-                    <img width="200" height="150" class="img-responsive" alt="test" src="img/Test3.jpg">
+                    <img width="200" height="150" class="small-image img-responsive" alt="test" src="img/Test3.jpg">
                     <h3 class="title">Title 3</h3>
                     <a class="url-link" href="https://github.com/udacity/title3">https://github.com/udacity/title3</a>
                 </div>
             </div>
-        </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
 </html>
